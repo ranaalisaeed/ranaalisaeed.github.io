@@ -2,10 +2,11 @@
 
 title: Rana Ali Saeed
 locale: en_US
-description: Data enthusiast, join me in this insightful journey!
+description: Data enthusiast, join me in my journey to master data skills!
 logo: site-logo.png
 search: true
-url: http://localhost:4000
+# url: http://localhost:4000
+url: https://ranaalisaeed.github.io
 
 # Jekyll configuration
 
