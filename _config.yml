@@ -10,8 +10,8 @@ url: https://ranaalisaeed.github.io
 
 # Jekyll configuration
 
-permalink:   /:categories/:title/
-markdown:    kramdown
+permalink:   /:categories/:title/ # or pretty
+markdown:    kramdown # or rdiscount
 highlighter: rouge
 sass:
   sass_dir: _sass
@@ -30,6 +30,8 @@ kramdown:
   enable_coderay: false
 
 mathjax: true
+# pygments: true # after installing pygments
+pageinate: 10 # not sure what this is
 
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]

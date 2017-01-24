@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Negotiation for Project Managers"
-excerpt: "A proven ability and a track record to negotiate ‘win-win’ solutions is a highly sought after skill in Project Managers. Effective negotiations could literally turn people in opposition to the change your project delivers to its biggest supporters. They could be the missing link to get those stumbling blocks out of your project’s way to success. Read on to master negotiation skills as a valuable tool in your project management arsenal."
-categories: articles
+excerpt: "A proven ability to negotiate ‘win-win’ solutions is a highly sought after skill in Project Managers. Effective negotiations could literally turn people in opposition to the change your project delivers to its biggest supporters. Read on learn how to master negotiation skills for your project management arsenal."
+categories: blog
 tags: [negotiation, skills, project-manager]
 modified: 2017-01-23
 image:
