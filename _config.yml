@@ -36,6 +36,10 @@ pageinate: 10 # not sure what this is
 include: [".htaccess"]
 exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", ".less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor"]
 
+# Disqus comments
+site:
+  owner:
+    disqus-shortname: ranaalisaeed-github-io
 
 # Site owner
 owner:
