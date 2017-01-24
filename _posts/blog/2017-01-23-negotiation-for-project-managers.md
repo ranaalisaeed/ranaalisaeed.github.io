@@ -14,13 +14,13 @@ comments: true
 share: true
 ---
 
-{{TOC}}
-
 Negotiation is defined as *“a discussion aimed at reaching an agreement”* [Oxford](https://en.oxforddictionaries.com/definition/negotiation). An elegant and simple definition encompassing yet a powerful and sometimes hard to master skill, especially for project managers (PMs). Here’s why:
 
 Projects involve change. Many parties interact during a project lifecycle including stakeholders, users and delivery team. Sponsors empower PMs to deliver, however, it should be no surprise to PMs that conflicts arise in projects due to many sources including matrix organisations, conflicting priorities, expectations gap and scope creep. Without an effective way to solve conflicts in a timely manner, projects can quickly come to a standstill and may even fail.
 
 The good news is that by mastering and applying these negotiation skills in day-to-day activities, PMs can ensure progress through even the most difficult of conflicts. Read on to take a look at how to apply negotiation skills effectively from a PM’s perspective. 
+
+{{ TOC }}
 
 ## What is negotiation for PMs
 
