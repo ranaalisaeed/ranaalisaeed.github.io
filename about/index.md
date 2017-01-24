@@ -21,3 +21,7 @@ I grew up in a vibrant city of Pakistan called Lahore. With a keen interest in e
 This academic record earned me an offer from my country towards a doctorate scholarship program - a highly prestigious program of the time offered only to a few each cohort. I did accept but later chose employment as circumstances created by 9/11 aftermath delayed my overseas paperwork. But you can say that I am very keen learner, I enjoy learning new knowledge and usually try to figure out easier ways to grasp difficult theoretical concepts that stay long in memory.
 
 For over 13 years now, I have contributed in various management, techical and operational capacities to achieve positive outcomes for clients in IT, Telco and Academia sectors. I provide best-in-class project management, business analysis and solution architecture services to stakeholders. Geographically, I have been part of diverse corporate cultures from Australia, Middle East and Asian markets.
+
+I’d love to get in touch with you.
+
+Cheers
