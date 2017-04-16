@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Data Analytics lifecycle for organisations
+title: "Data Analytics lifecycle for organisations"
 published: true
 date: 2017-04-17
 categories: blog
