@@ -3,9 +3,11 @@ layout: post
 title: Data Analytics lifecycle for organisations
 published: true
 date: 2017-04-17
-categories: data
-tags: data analytics
+categories: blog
+tags: [data analytics]
 excerpt_separator: <!--more-->
+comments: true
+share: true
 ---
 
 # An organisation's journey to data analytics
