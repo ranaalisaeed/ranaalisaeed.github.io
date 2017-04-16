@@ -15,8 +15,7 @@ share: true
 Every organisation has data. Data Analytics empower organisations to leverage this data and provide answers to their biggest business challenges. Setting up data analytics is a daunting task <!--more-->
  and we could easily run into roadblocks. The following approach explain the order in organisations should setup data analytics, these should occur in sequence.
 
-
-![image]({{site.url}}/images/ml_framework.png)
+![framework flow]({{ site.url }}/images/ml_framework.png){: .pull-center}
 
 ## Data Exploration
 
