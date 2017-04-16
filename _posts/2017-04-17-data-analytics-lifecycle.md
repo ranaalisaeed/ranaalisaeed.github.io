@@ -12,11 +12,11 @@ share: true
 
 # An organisation's journey to data analytics
 
-Every organisation has data. Data Analytics empower organisations to leverage this data and provide answers to their biggest business challenges. Setting up data analytics is a daunting task and we could easily run into roadblocks. The following approach explain the order in organisations should setup data analytics, these should occur in sequence.
+Every organisation has data. Data Analytics empower organisations to leverage this data and provide answers to their biggest business challenges. Setting up data analytics is a daunting task <!--more-->
+ and we could easily run into roadblocks. The following approach explain the order in organisations should setup data analytics, these should occur in sequence.
 
-<!--more-->
 
-![image]({{site.url}}images/ml_framework.png)
+![image]({{site.url}}/images/ml_framework.png)
 
 ## Data Exploration
 
