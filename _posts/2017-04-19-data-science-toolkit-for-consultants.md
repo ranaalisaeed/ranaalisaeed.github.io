@@ -5,7 +5,7 @@ title: "Data Science toolkit for IT Consultants"
 published: true
 date: 2017-04-19
 categories: blog
-tags: [data-science, consultant, machine-learning]
+tags: [data science, consultant toolkit, machine learning]
 excerpt:
 excerpt_separator: <!--more-->
 comments: true
@@ -21,7 +21,7 @@ table, th, tr {
 
 Working as a Consultant in project management and business analysis, I help clients with solutions to their business challenges.
 
-In recent years my work has significantly shifted from tech-insfrastucture to data driven initiatives. Thats when I started to learn Data Science. Did Moocs, read books, tutorials and tried a lot of open source software - basically got acquainted with quite a lot of theory, tools and languages.
+In recent years my work has significantly shifted from tech-infrastructure to data driven initiatives. <!--more--> That's when I started to learn Data Science. Did Moocs, read books, tutorials and tried a lot of open source software - basically got acquainted with quite a lot of theory, tools and languages.
 
 This list is the crux of my effort. I've curated list of software that worked best for me in merging data analytics skillset with my consulting career.
 
