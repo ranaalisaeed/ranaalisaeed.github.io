@@ -5,7 +5,7 @@ title: "Data Science toolkit for IT Consultants"
 published: true
 date: 2017-04-19
 categories: blog
-tags: [data science, consultant, machine learning]
+tags: [data-science, consultant, machine-learning]
 excerpt:
 excerpt_separator: <!--more-->
 comments: true
