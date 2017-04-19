@@ -3,7 +3,7 @@ layout: post
 author: rana_ali_saeed
 title: "Data Science toolkit for IT Consultants"
 published: true
-date: 
+date: 2017-04-19
 categories: blog
 tags: [data science, consultant, machine learning]
 excerpt:
