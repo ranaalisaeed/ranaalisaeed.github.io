@@ -1,0 +1,51 @@
+%button {
+	padding: 1rem;
+	display: inline-block;
+	text-align: center;
+	cursor: pointer;
+	text-decoration: none;
+	font-size: $font-size-button;
+	-webkit-appearance: none;
+	appearance: none;
+	border-radius: 0;
+	transition: 
+		color $timing-interaction,
+		background $timing-interaction;
+	
+	&:focus {
+		outline: 0
+	}
+	&:active {
+		transform: scale(0.99);
+	}
+	&:disabled,
+	&.disabled {
+		cursor: not-allowed;
+		transform: scale(1);
+	}
+}
+
+.form-button {
+	@extend %button;
+	border: 1px solid $color-button-action;
+	background: transparent;
+
+	&:hover,
+	&:focus {
+		color: $color-button-text__hover;
+		background: $color-button-action;
+	}
+	&:active {
+		opacity: .8;
+		color: $color-button-text__active;
+		background: $color-button-action;
+	}
+	&:disabled,
+	&.disabled {
+		opacity: 0.4;
+		&:hover {
+			color: $color-button-action;
+			background: transparent;
+		}
+	}
+}

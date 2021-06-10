@@ -1,0 +1,14 @@
+$timing-interaction: 0.2s;
+
+$color-action: red;
+
+$color-form-background: white;
+$color-form-underline__inactive: rgba(black, 0.7);
+$color-form-underline__hover: grey;
+$color-form-underline__active: $color-action;
+
+$color-button-action: $color-action;
+$color-button-text__hover: black;
+$color-button-text__active: black;
+
+$font-size-button: 1rem;
