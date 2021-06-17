@@ -11,3 +11,4 @@ vendor/
 
 # Other OS files
 .DS_Store
+.vscode/
