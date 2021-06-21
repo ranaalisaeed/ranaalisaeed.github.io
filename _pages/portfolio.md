@@ -3,4 +3,6 @@ layout: page
 title: Portfolio
 permalink: /:basename
 ---
-Page works!
+Under Construction ... 
+
+Please come back later or [send me a note]({% link _pages/contact.md %}) 
