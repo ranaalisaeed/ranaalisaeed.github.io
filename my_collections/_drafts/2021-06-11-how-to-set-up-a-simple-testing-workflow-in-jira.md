@@ -1,5 +1,4 @@
 ---
-layout: post
 title: how to set up a simple workflow in Jira
 ---
 

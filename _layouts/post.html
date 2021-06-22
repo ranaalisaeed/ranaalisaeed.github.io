@@ -25,3 +25,7 @@ layout: default
   </ul>
 </div>
 {% endif %}
+
+{% if page.comments == true %}
+  {% include comments.html %}
+{% endif %}

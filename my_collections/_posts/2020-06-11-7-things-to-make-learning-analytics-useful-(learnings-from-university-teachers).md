@@ -1,5 +1,4 @@
 ---
-layout: post
 title: 7 things to make Learning Analytics useful (learnings from university teachers)
 ---
 Learning Analytics is defined as the "measurement, collection, analysis and reporting of data about learners and their contexts, for purposes of understanding and optimising learning and the environments in which it occurs". Source of definition is [SoLAR](https://www.solaresearch.org/about/what-is-learning-analytics/).

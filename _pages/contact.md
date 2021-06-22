@@ -9,7 +9,7 @@ I'd love to get in touch!
 <br />
 
 
-<div class="contact-form">
+<div class="contact-page-wrapper">
 	<!-- <form netlify action="/contact/confirmation"> -->
 	<form netlify>
 		<fieldset>

@@ -30,3 +30,26 @@ collections_dir: my_collections
 collections:
   projects:
     output: true
+
+# Staticman (comments) configuration
+staticman_url: https://alir-staticman-instance.herokuapp.com/v3/entry/ranaalisaeed/ranaalisaeed.github.io/gh-pages/comments
+# Identical to configuration in staticman.yml
+reCaptcha:
+  enabled: true
+  siteKey: "6Lcvp0sbAAAAAGFa8Ak7ydUDnQV-x6aWMMEYsrIT"
+  secret: "hqT5TqCkFQA5GEt1ef+AE0AGNxudq6Bm2U5i8YQLThBjAfUgNLF0f9kj9VPxZU8H0INhY8e9xpazRTxefudVlttH0T4xhjIjD7dMHWQKdOr0stqO75ukjBdsUk8f0l6EDqW5uSfAZdWEy5MQo4Mzfg+s4dE/ULFGKEjJBeAQUEpv0dSe2rJO/PUS9xqcZjjRebP1V471qJvUa9yRkY9jXcgmeEdVmJWEbuIYfXjFVNORLqdn017TN58JAGvdFukSx1MgQMh4luwR+g2UKhldIy3q1s+Wz2fK9frTAnrcZjDH7vkY1LpY2++HvNm8BkSNLXwS7zzVDvvmQSGpiuilpN5SNxrsbBlGJ9OH9+OicQYJQhsiJEV+nixy5P1wxks2msELmrxRAjTQrHjYLHf7qTV9zPalqSUiBDb4lTaAWOmxYupmxn/3iQ1QzFAZY9bGAD6YiguwY5gSoaTd+vUi0lU2n3bFcMZx3YcAnu2AnzxlWWPZJU0N6CMfocCgLArvAvIXSKn0V0lq7k2cax2rEVTHLXsgkexuxvQab79Sf+7xCuzzAMRLn9x8SfA70hs0g/8xbHpQ2ee1JeCzG4zpL4Jpf88ZlZm2B1w07yO6nzN3rWrks+DNntctAJC5oTwcp+r+Eld29pRFmqxhhYC+adPNrItX/wP1N+/6hN2dnYQ="
+
+defaults:
+  # Post defaults
+  - scope:
+      path: "my_collections/_posts"
+      # type: posts
+    values:
+      layout: post
+      comments: true
+  - scope:
+      path: "my_collections/_drafts"
+      # type: drafts
+    values:
+      layout: post
+      comments: true
