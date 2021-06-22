@@ -11,4 +11,10 @@ $color-button-action: $color-action;
 $color-button-text__hover: black;
 $color-button-text__active: black;
 
-$font-size-button: 1rem;
+$font-color-comment__author: grey;
+
+$font-size-normal: 1rem;
+$font-size-small: 0.8rem;
+$font-size-xsmall: 0.6rem;
+
+$font-size-button: $font-size-normal;
