@@ -36,7 +36,7 @@ staticman_url: https://alir-staticman-instance.herokuapp.com/v2/entry/ranaalisae
 
 # reCaptcha Keys - Identical to configuration in staticman.yml
 reCaptcha:
-  enabled: true
+  enabled: false
   siteKey: "6Lcvp0sbAAAAAGFa8Ak7ydUDnQV-x6aWMMEYsrIT"
   secret: "ATlVfvU3CLKgGHjTLtuoYBC0DTTL6+yrwHywuzUNCkAzX8BCyJ2eUHMxbOKH6+EQSuQP3aNewBMbKGoHFeXsyi6kHnBh1l9X5RwEM6fUunMOJalCyabwQi+1FVID5prfgZKi3g7ta3DODFkIXKu7gL68sErCZmu/CW6ere9O3lTK2hac39U37boO47ZpoX0Xm88jxiymgLSznVGp5whWGLygM75fQzB1xVMRTlgucdUUmNb0UPXDMArDfCW/MjtbnECzYrJYAqQ9Y3n4xaSaLO4PhdnsXYtmXy4trZD/z9CDgDqPxt82KifY/MEkyhSVskTph7DttnQ5aeARElW6C8db//ZrmCM3fifBeFNXuNW8LRcQFe8NS6fNBfsOpqshtR1pYNgdAP8eMmTrL8c2l8dzMPgME/HtWW3+Eo7xggS2mcOgfOs1ojJnxG7kMA/l3400iGzzBZOCpxnUtbJDFbeKzEFnNMOkWnXuBJ6hEoejzudsqEoaWR1MNiffHDnPi9yYdYR9DCwGU+/fJCUOM+zQ0cKuXUVF2PJjknKbbs7NrUUCvjlXDt2uHskWZ43wDEyR/G2+6cen9+Q0w8mTq/8CkQCTsAlaXkcNbGtqwk8HHmmVqf2npDUIcB4RmaEdxo0PA/cOufx+nMD4c647b+acbmIPwQdGSFGZ5h1MkuQ="
 
