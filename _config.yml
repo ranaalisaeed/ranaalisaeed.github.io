@@ -33,7 +33,8 @@ collections:
 
 # Staticman (comments) configuration
 staticman_url: https://alir-staticman-instance.herokuapp.com/v2/entry/ranaalisaeed/ranaalisaeed.github.io/gh-pages/comments
-# Identical to configuration in staticman.yml
+
+# reCaptcha Keys - Identical to configuration in staticman.yml
 reCaptcha:
   enabled: true
   siteKey: "6Lcvp0sbAAAAAGFa8Ak7ydUDnQV-x6aWMMEYsrIT"

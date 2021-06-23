@@ -40,7 +40,7 @@ comments:
   # to be used directly (e.g. a string, number or array)
   generatedFields:
     date:
-      type: "date"
+      type: date
       options:
         format: "timestamp-seconds"
 
