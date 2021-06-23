@@ -20,7 +20,7 @@ comments:
   #
   # Name of the branch being used. Must match the one sent in the URL of the
   # request.
-  branch: gh-pages
+  branch: "gh-pages"
 
   # Text to use as the commit message or pull request title. Accepts placeholders.
   commitMessage: "Comment from {fields.name} on {options.slug}"
@@ -40,7 +40,7 @@ comments:
   # to be used directly (e.g. a string, number or array)
   generatedFields:
     date:
-      type: date
+      type: "date"
       options:
         format: "timestamp-seconds"
 
