@@ -18,3 +18,15 @@ heroku config --app staticman-instance
  8785  heroku config --app alir-staticman-instance 
 {% endhighlight%}
 
+
+https://spinningnumbers.org/a/staticman-heroku.html
+https://travisdowns.github.io/blog/2020/02/05/now-with-comments.html
+
+To verify:
+https://api.staticman.net/v2/connect/ranaalisaeed/ranaalisaeed.github.io
+
+reCaptcha
+http://www.google.com/recaptcha/admin
+
+
+https://www.google.com/recaptcha/admin/site/457942831
