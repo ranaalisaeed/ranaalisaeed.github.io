@@ -86,3 +86,30 @@ heroku config:add --app alir-staticman-app "GITHUB_TOKEN=19cc0ed58035902614de2c8
 ```
 heroku config --app staticman-instance
 ```
+
+
+
+
+
+
+```
+<pre>
+
+	{% assign page_slug = page.slug | slugify: "ascii" %}
+	page_slug: {{ page_slug | jsonify | escape }}
+	<hr>
+	{% assign comments2 = site.data.comments[page_slug] | where_exp: "item", "item.replying_to_uid == ''" %}
+	comments2: {{ comments2 | jsonify | escape }}
+	<hr>
+	{% assign comments_by_date2 = comments2 | sort: 'date' | reverse %}
+	comments_by_date2: {{ comments_by_date2 | jsonify | escape }}
+	<hr>
+	
+	
+	<!-- site: {{ site | jsonify | escape }} -->
+	<!-- page: {{ page.slug | slugify: "ascii" | jsonify | escape }} -->
+	<!-- layout: {{ layout | jsonify | escape }} -->
+	<!-- content: {{ content | jsonify | escape }} -->
+	<!-- paginator: {{ paginator | jsonify | escape }} -->
+</pre>
+```
