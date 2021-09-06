@@ -1,6 +1,31 @@
 .index-page-wrapper {
-	.post {
-		-webkit-mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-		mask-image: linear-gradient(to bottom, black 70%, transparent 100%);
-	}	
+  & .tagline {
+    margin-bottom: 1rem;
+
+    > mark {
+      font-size: $font-size-large;
+      background-color: white;
+    }
+  }
+
+  & .intro {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    & img {
+      // border-radius: 5%;
+      width: 300px;
+      height: 350px;
+      object-fit: cover;
+      object-position: top;
+      // float: right;
+    }
+
+    & .intro-overview {
+      width: 60%;
+      margin-left: 2rem;
+      line-height: 1.7;
+    }
+  }
 }

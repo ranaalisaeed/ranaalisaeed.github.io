@@ -3,11 +3,11 @@ layout: page
 title: Contact
 permalink: /:basename
 ---
+
 I'd love to get in touch!
 <br />
 <br />
 <br />
-
 
 <div class="contact-page-wrapper">
 	<!-- <form netlify action="/contact/confirmation"> -->
@@ -19,23 +19,24 @@ I'd love to get in touch!
 				</label>
 			</section>
 
-			<section>
-				<label for="email">Email
-					<input required type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-				</label>
-			</section>
+    		<section>
+    			<label for="email">Email
+    				<input required type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+    			</label>
+    		</section>
 
-			<section>
-				<label for="message">Message
-					<textarea required name="message" id="message"></textarea>
-				</label>
-			</section>
+    		<section>
+    			<label for="message">Message
+    				<textarea required name="message" id="message"></textarea>
+    			</label>
+    		</section>
 
-			<section>
-				<div data-netlify-recaptcha></div>
-			</section>
+    		<section>
+    			<div data-netlify-recaptcha></div>
+    		</section>
 
-			<input class="form-button" type="submit" value="Send Message">
-		</fieldset>
-	</form>
+    		<input class="form-button" type="submit" value="Send Message">
+    	</fieldset>
+    </form>
+
 </div>
