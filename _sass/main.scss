@@ -1,11 +1,13 @@
 @charset "utf-8";
 
-@import 'arch71/variables';
-@import 'arch71/animations';
-@import 'arch71/mixins-functions';
-@import 'arch71/forms';
-@import 'arch71/buttons';
-@import 'arch71/pages/index';
-@import 'arch71/pages/blog';
-@import 'arch71/pages/contact';
-@import 'arch71/comment-styles';
+@import "arch71/variables";
+@import "arch71/animations";
+@import "arch71/mixins-functions";
+@import "arch71/forms";
+@import "arch71/buttons";
+@import "arch71/pages/index";
+@import "arch71/pages/blog";
+@import "arch71/pages/contact";
+@import "arch71/comment-styles";
+@import "arch71/pages/project";
+@import "arch71/pages/portfolio";

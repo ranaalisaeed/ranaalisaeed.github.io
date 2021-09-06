@@ -1,5 +1,11 @@
 .blog-page-wrapper {
-	.post {
-		margin-bottom: 2em;
-	}	
+  & .posts {
+    & .post {
+      margin-bottom: 2rem;
+
+      & .post-excerpt {
+        font-size: $font-size-small;
+      }
+    }
+  }
 }

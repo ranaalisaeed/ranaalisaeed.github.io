@@ -13,9 +13,9 @@ permalink: /:basename
 					{{ post.title }}
 				</a>
 			</h2>
-
-			<span class="post-date">{{ post.date | date_to_string }}</span>
-		</div>
-		{% endfor %}
-	</div>
+			<span class="post-excerpt">{{ post.excerpt }}</span>
+    	<span class="post-date">{{ post.date | date_to_string }}</span>
+    </div>
+    {% endfor %}
+  </div>
 </div>

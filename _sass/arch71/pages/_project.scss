@@ -1,0 +1,12 @@
+.project-layout-wrapper {
+  & .evidence {
+    & img {
+      margin-bottom: 0;
+    }
+    & figcaption {
+      font-size: $font-size-xsmall;
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+  }
+}
