@@ -3,9 +3,7 @@ title: The case of micro feedback in learning analytics dashboards
 image_serve_path: /public/images/micro-feedback
 ---
 
-I've worked on many learning analytics dashboards for users in higher education, especially university teachers.
-
-A frequent challenge with dashboards is how to collect relevant feedback from users.
+I've worked on many learning analytics dashboards for users in higher education, especially university teachers. A frequent challenge with dashboards is how to collect relevant feedback from users. This article proposed another way to collect timely feedback. <!--more-->
 
 ## Feedback
 
