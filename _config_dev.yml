@@ -1,2 +1,2 @@
 url: ""
-baseurl: ""
+baseurl: "/" # needed to generate favicon URL
