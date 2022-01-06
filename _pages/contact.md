@@ -11,7 +11,7 @@ I'd love to get in touch!
 
 <div class="contact-page-wrapper">
 	<!-- <form netlify action="/contact/confirmation"> -->
-	<form netlify>
+	<form name="contact" method="POST" data-netlify="true">
 		<fieldset>
 			<section>
 				<label for="name">Name
@@ -35,7 +35,8 @@ I'd love to get in touch!
     			<div data-netlify-recaptcha></div>
     		</section>
 
-    		<input class="form-button" type="submit" value="Send Message">
+    		<!-- <input class="form-button" type="submit" value="Send Message"> -->
+			<button class="form-button" type="submit">Send Message</button>
     	</fieldset>
     </form>
 
