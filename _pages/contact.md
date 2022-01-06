@@ -7,6 +7,8 @@ permalink: /:basename
 I'd love to get in touch!
 <br />
 <br />
+You can send me an <a href="mailto:alirana@engineer.com">Email</a>, connect on <a href="https://www.linkedin.com/in/ranaalisaeed/">LinkedIn</a> or fill our the form below :-)
+<br />
 <br />
 
 <div class="contact-page-wrapper">

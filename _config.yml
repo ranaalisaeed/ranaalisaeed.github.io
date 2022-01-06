@@ -1,7 +1,7 @@
 # Setup
 title: Ali Rana
-tagline: "Analytics and Innovation"
-description: 'Showcase of my work and blog about analytics, technology and things that interest me. Made in <a href="https://jekyllrb.com" target="_blank">Jekyll</a>.'
+tagline: "Project, Analytics, Innovation"
+description: 'Portfolio and Blog about analytics, technology and stuff that interest me. Made with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>.'
 url: "" # removed https://ranaalisaeed.github.io to troubleshoot form submission
 baseurl: "/" # needed to generate favicon URL
 paginate: 5
