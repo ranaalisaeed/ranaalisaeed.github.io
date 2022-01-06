@@ -10,34 +10,22 @@ I'd love to get in touch!
 <br />
 
 <div class="contact-page-wrapper">
-	<!-- <form netlify action="/contact/confirmation"> -->
-	<form name="contact" method="POST" data-netlify="true">
-		<fieldset>
-			<section>
-				<label for="name">Name
-					<input autofocus type="text" name="name" id="name">
-				</label>
-			</section>
 
-    		<section>
-    			<label for="email">Email
-    				<input required type="email" name="email" id="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
-    			</label>
-    		</section>
-
-    		<section>
-    			<label for="message">Message
-    				<textarea required name="message" id="message"></textarea>
-    			</label>
-    		</section>
-
-    		<section>
-    			<div data-netlify-recaptcha></div>
-    		</section>
-
-    		<!-- <input class="form-button" type="submit" value="Send Message"> -->
-			<button class="form-button" type="submit">Send Message</button>
-    	</fieldset>
-    </form>
+<form action="https://formspree.io/f/myyozokp" method="POST">
+  <label>
+    Your name:
+    <input autofucus type="text" name="name">
+  </label>
+  <label>
+    Your email:
+    <input type="email" name="_replyto">
+  </label>
+  <label>
+    Your message:
+    <textarea required name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button class="form-button" type="submit">Send Message</button>
+</form>
 
 </div>
