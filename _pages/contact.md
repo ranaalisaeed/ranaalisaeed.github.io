@@ -25,7 +25,7 @@ I'd love to get in touch!
     <textarea required name="message"></textarea>
   </label>
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button class="form-button" type="submit">Send Message</button>
 </form>
 
 </div>
