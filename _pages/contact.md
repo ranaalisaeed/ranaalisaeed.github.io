@@ -14,7 +14,7 @@ I'd love to get in touch!
 <form action="https://formspree.io/f/myyozokp" method="POST">
   <label>
     Your name:
-    <input autofucus type="email" name="name">
+    <input autofucus type="text" name="name">
   </label>
   <label>
     Your email:
