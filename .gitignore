@@ -12,3 +12,6 @@ vendor/
 # Other OS files
 .DS_Store
 .vscode/
+
+# Exclude secure files
+*.pem
