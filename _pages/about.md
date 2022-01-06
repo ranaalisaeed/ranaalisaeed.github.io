@@ -4,6 +4,10 @@ title: About
 permalink: /:basename
 ---
 
+<form action="/public/media/AliRana_Resume_Jan2022.pdf">
+    <input class="form-button" type="submit" value="Download My Resume" />
+</form>
+
 Hi, I'm Ali Rana.
 I'm an engineer and by profession, a project management professional. I love improving processes and I have a passion for data analytics.
 
