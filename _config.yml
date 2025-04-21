@@ -14,6 +14,17 @@ author:
   url: https://twitter.com/ranaalisaeed
   email: alirana@engineer.com
 
+seo:
+  description: "Ali Rana's portfolio showcasing projects in project management, analytics, and innovation"
+  image: /public/images/profile-pictures/profile.jpg
+  twitter:
+    username: ranaalisaeed
+  social:
+    name: Ali Rana
+    links:
+      - https://twitter.com/ranaalisaeed
+      - https://www.linkedin.com/in/alirana-tech
+
 # Gems
 plugins:
   - jekyll-paginate
