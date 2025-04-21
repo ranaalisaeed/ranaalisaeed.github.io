@@ -62,4 +62,4 @@ defaults:
       layout: project
       comments: false
 
-exclude: ["extras"]
+exclude: ["extras", "CLAUDE.md"]
