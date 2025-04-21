@@ -13,14 +13,14 @@ You can send me an <a href="mailto:alirana@engineer.com">Email</a>, connect on <
 
 <div class="contact-page-wrapper">
 
-<form action="https://formspree.io/f/myyozokp" method="POST">
+<form action="https://formspree.io/f/manowqgw" method="POST">
   <label>
     Your name:
     <input autofucus type="text" name="name">
   </label>
   <label>
     Your email:
-    <input type="email" name="_replyto">
+    <input type="email" name="email">
   </label>
   <label>
     Your message:
