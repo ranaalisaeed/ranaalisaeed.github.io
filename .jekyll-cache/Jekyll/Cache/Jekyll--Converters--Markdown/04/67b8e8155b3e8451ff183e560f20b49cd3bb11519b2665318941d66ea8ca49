@@ -1,0 +1,44 @@
+I"<p>I’ve worked on many learning analytics dashboards for users in higher education, especially university teachers. A frequent challenge with dashboards is how to collect relevant feedback from users. This article proposed another way to collect timely feedback. <!--more--></p>
+
+<h2 id="feedback">Feedback</h2>
+
+<p>Feedback is either quantitative or quantitative. Qualitative feedback is generally through user interviews and quantitative feedback through web traffic monitors, such as Google Analytics.</p>
+
+<p>Good feedback is essential to understand and improve data insights.</p>
+
+<h2 id="the-problem">The problem</h2>
+
+<p>I make the case here that qualitative feedback through user interviews is very limited. Interviews usually take places long after the actual experience. When interviewed, users tend to provide feedback reflecting (looking back) at an experience that isn’t fresh in minds. It’s usually long after the actual experience.</p>
+
+<p>When dashboards have many charts and insights, and data is updated regularly, is there a better way to collect feedback that captures the essence of timeliness and usefulness of data, as it helps users in their day-to-day practices?</p>
+
+<h2 id="micro-feedback">Micro feedback</h2>
+
+<p>I propose a micro feedback collector, as a way to collect in-situ feedback against any chart. It’s strategically placed at the bottom of the chart container, so it doesn’t distract users from the content. It’s also conveniently located at the place of action.</p>
+
+<p class="img-responsive"><img src="/public/images/micro-feedback/micro-feedback_IMAGE.png" alt="Micro feedback placed under a chart" /></p>
+
+<p>If the user finds a chart helpful, they can provide their feedback through a quick form:</p>
+
+<p class="img-responsive"><img src="/public/images/micro-feedback/micro-feedback_YES.gif" alt="Micro feedback journey for YES" /></p>
+
+<p>If they don’t find a chart helpful, they can follow a similar journey. Notice how the question prompt adapts to ‘No’ input:</p>
+
+<p class="img-responsive"><img src="/public/images/micro-feedback/micro-feedback_NO.gif" alt="Micro feedback journey for NO" /></p>
+
+<p>User experience flow for micro feedback:</p>
+
+<p class="img-responsive"><img src="/public/images/micro-feedback/micro-feedback_FLOW.svg" alt="Micro feedback flow" /></p>
+
+<h2 id="further-considerations">Further considerations</h2>
+
+<p>When we collect feedback his way, it is relevant to a specific chart for which the user provided the feedback. When there are several charts in the dashboard, what data model do we need at the back-end to collect scalable feedback? The date and time of such feedback might also be important to record in the back-end.</p>
+
+<p>Another consideration is related to ‘feedback fatigue’. Will users find it overwhelming to have these prompts available at so many places? Is there a more subtle way to do this? Users might need to be educated to ensure they understand this feedback is optional.</p>
+
+<p>I’m interested to try this out with users and hear any thoughts from readers.</p>
+
+<h2 id="attribution">Attribution</h2>
+
+<p>In designing the micro feedback form, I’ve taken inspiration from feedback forms provided at the end of Apple support articles. See an example <a href="https://support.apple.com/en-au/HT202039">here</a>.</p>
+:ET

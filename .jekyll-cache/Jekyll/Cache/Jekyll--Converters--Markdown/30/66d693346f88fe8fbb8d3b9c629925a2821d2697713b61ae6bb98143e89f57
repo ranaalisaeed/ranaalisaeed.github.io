@@ -1,0 +1,29 @@
+I"<div class="portfolio-page-wrapper">
+  <div class="projects">
+    
+      <div class="project">
+        <h2 class="project__title">
+          <a href="/projects/dual-track-innovation/">Innovation process implementation</a>
+        </h2>
+        <p>Dual-track workflow to test and validate ideas early so projects can deliver the best value. Workflow powered Innovation as a Service for rapid iterations of design thinking process.</p>
+      </div>
+    
+      <div class="project">
+        <h2 class="project__title">
+          <a href="/projects/program-approach/">Program approach for increased engagement</a>
+        </h2>
+        <p>Introducing a bespoke program approach helped breaking silos in the team and improved the way we worked as an engaged interconnected team</p>
+      </div>
+    
+      <div class="project">
+        <h2 class="project__title">
+          <a href="/projects/resource-planning/">Resource planning with Skills Map</a>
+        </h2>
+        <p>People offer skills and projects need skilled people to deliver successful change. This work sought to understand the skills relevant to the team and how they mapped across people. Where gaps were and what roles should be recruited.</p>
+      </div>
+    
+  </div>
+</div>
+
+<!-- Please come back later or [send me a note](/contact)  -->
+:ET
