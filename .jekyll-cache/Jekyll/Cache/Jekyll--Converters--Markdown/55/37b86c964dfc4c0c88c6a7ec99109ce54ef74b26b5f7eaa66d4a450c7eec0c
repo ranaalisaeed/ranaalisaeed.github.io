@@ -1,0 +1,28 @@
+I"@<div class="blog-page-wrapper">
+	<div class="posts">
+		
+		<div class="post">
+			<h2 class="post-title">
+				<a href="/2021/10/02/micro-feedback-in-dashboards/">
+					The case of micro feedback in learning analytics dashboards
+				</a>
+			</h2>
+			<span class="post-excerpt"><p>I’ve worked on many learning analytics dashboards for users in higher education, especially university teachers. A frequent challenge with dashboards is how to collect relevant feedback from users. This article proposed another way to collect timely feedback.</p>
+</span>
+    	<span class="post-date">02 Oct 2021</span>
+    </div>
+    
+		<div class="post">
+			<h2 class="post-title">
+				<a href="/2020/06/11/what-teachers-want-from-learning-analytics/">
+					University teachers' view of useful learning analytics
+				</a>
+			</h2>
+			<span class="post-excerpt"><p>Several attempts at use of analytics to enhance teaching practices that were met with scepticism from academics. Retrospectives of those works were often challenged by “so what?” questions as academics couldn’t do much with insights from dashboards that lacked timeliness and context. This work explored what teachers really want from learning analytics to support their day-to-day teaching practice.</p>
+</span>
+    	<span class="post-date">11 Jun 2020</span>
+    </div>
+    
+  </div>
+</div>
+:ET
