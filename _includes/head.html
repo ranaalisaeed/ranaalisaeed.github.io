@@ -58,28 +58,41 @@
     async
     src="https://unpkg.com/web-vitals/dist/web-vitals.iife.js"
   ></script>
-  <script>
-    // Send metrics to Google Analytics
+
+  <!-- Web Vitals monitoring -->
+  <script type="module">
+    import {
+      onCLS,
+      onFID,
+      onLCP,
+      onFCP,
+      onTTFB,
+    } from "https://unpkg.com/web-vitals@3/dist/web-vitals.attribution.js";
+
     function sendToAnalytics(metric) {
+      // Log to console during development
+      console.log(metric);
+
+      // Send to Google Analytics if available
       if (window.gtag) {
         gtag("event", "web_vitals", {
           event_category: "Web Vitals",
           event_label: metric.name,
           value: Math.round(metric.value),
           non_interaction: true,
+          // Include additional dimension data available via attribution
+          metric_rating: metric.rating,
+          metric_id: metric.id,
+          metric_delta: metric.delta,
         });
       }
     }
 
-    // When web-vitals script loads, start capturing metrics
-    window.addEventListener("load", function () {
-      if (typeof webVitals !== "undefined") {
-        webVitals.getCLS(sendToAnalytics);
-        webVitals.getFID(sendToAnalytics);
-        webVitals.getLCP(sendToAnalytics);
-        webVitals.getFCP(sendToAnalytics);
-        webVitals.getTTFB(sendToAnalytics);
-      }
-    });
+    // When the script loads, start measuring
+    onCLS(sendToAnalytics);
+    onFID(sendToAnalytics);
+    onLCP(sendToAnalytics);
+    onFCP(sendToAnalytics);
+    onTTFB(sendToAnalytics);
   </script>
 </head>
