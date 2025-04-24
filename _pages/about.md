@@ -51,20 +51,25 @@ permalink: /:basename
 </div>
 
 <div class="about-content">
-  <h2>Hi, I'm Ali Rana.</h2>
-  <p>I'm an engineer and by profession, a project management professional. I love improving processes and I have a passion for data analytics.</p>
+  <h2>Hi, I’m Ali Rana.</h2>
 
-  <p class='message'>
-  A process could be anything, for example, a way to deliver projects, to find next investment property, and to take a process and make it more efficient. I'm driven by curiousity to understand how things really work - asking right questions, developing empathy and validating things with data.
+  <p>
+    As Head of IT for Navitas’ Careers & Industry division, I oversee strategy, operations and digital innovation across Australia, the US and beyond. I lead a 21-person global team and established an IT Projects Office that governs 40+ strategic initiatives—from campus systems to platform consolidations.
   </p>
 
-  <p>Empathy is the knowledge of users or knowing how they feel about something. Data is basically all the data that's relevant for the problem at hand e.g. to measure it or to find patterns.</p>
+  <p class="message">
+    I thrive on simplifying complexity. Whether architecting fit-for-purpose IT for CSU campuses, decommissioning legacy marketing platforms or piloting generative AI in our classrooms, I combine creative problem-solving, design thinking and data-driven insights to deliver impactful solutions.
+  </p>
 
-  <p>I conceptualize projects that provide most value to clients and deliver them in ways that have the highest or earliest chances of success.</p>
+  <p>
+    My core strengths include enterprise architecture, AI strategy and cybersecurity. I co-authored the One Navitas Blueprint to guide CRM & platform consolidation, led ISO27001 remediation and ROPA compliance, and championed the Cogniti.ai rollout as a context-aware teaching assistant.
+  </p>
 
-  <p>I have worked with clients in education, information technology and telco sectors delivering projects and programs using agile, waterfall or bespoke approaches.</p>
+  <p>
+    At heart I’m a people-centric leader. I build high-trust, cross-functional teams; embed agile ways of working; and foster communities of practice in data, digital and AI—ensuring our solutions truly empower users.
+  </p>
 
-  <p>I'm particularly interested in working on data analytics, innovation for operational improvements and technology projects. Adopting a user-centric design thinking approach, I design, implement, test, and transition data driven projects.</p>
-
-  <p>I aim to bridge gaps between design, tech, and the business, by working cross-functionally to research, prototype and deliver real products with effective, engaging, and accessible user experiences.</p>
+  <p>
+    I’m passionate about bridging gaps between business, design and technology. By partnering closely with stakeholders and academic leaders, I turn vision into reality—researching, prototyping and launching enterprise systems that enable innovation and growth.
+  </p>
 </div>
