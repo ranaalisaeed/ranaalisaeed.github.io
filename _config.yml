@@ -2,7 +2,7 @@
 title: Ali Rana
 tagline: "Project, Analytics, Innovation"
 description: 'Portfolio and Blog about analytics, technology and stuff that interest me. Made with <a href="https://jekyllrb.com" target="_blank">Jekyll</a>.'
-url: "" # removed https://ranaalisaeed.github.io to troubleshoot form submission
+url: "https://ranaalisaeed.github.io" # removed https://ranaalisaeed.github.io to troubleshoot form submission
 baseurl: "/" # needed to generate favicon URL
 paginate: 5
 permalink: pretty

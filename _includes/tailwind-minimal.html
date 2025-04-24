@@ -2,11 +2,11 @@
 <!-- Tailwind CSS via CDN -->
 <script src="https://cdn.tailwindcss.com"></script>
 <script>
-  // Prefix all Tailwind classes to avoid conflicts with existing CSS
+  // Configure Tailwind with a stronger prefix to avoid conflicts
   tailwind.config = {
     prefix: "tw-",
     corePlugins: {
-      preflight: false, // Disable Tailwind's base styles
+      preflight: false, // Disable Tailwind's base styles to avoid conflicts
     },
     theme: {
       extend: {
