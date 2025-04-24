@@ -329,3 +329,21 @@ img {
 .sidebar-overlay #sidebar-checkbox:checked ~ .wrap {
   transform: translateX(0);
 }
+
+/* Clickable images with zoom indicator */
+.clickable-img {
+  display: block;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.clickable-img:hover {
+  opacity: 0.9;
+}
+
+.img-responsive {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
