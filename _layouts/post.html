@@ -8,24 +8,26 @@ layout: default
   {{ content }}
 </div>
 
-{% if site.related_posts.size >= 1 %}
+{% if page.topics %} {% assign page_topics = page.topics %}
 <div class="related">
   <h2>Related posts</h2>
   <ul class="related-posts">
-    {% for post in site.related_posts limit:3 %}
-      <li>
-        <h3>
-          <a href="{{ site.baseurl }}{{ post.url }}">
-            {{ post.title }}
-            <small>{{ post.date | date_to_string }}</small>
-          </a>
-        </h3>
-      </li>
-    {% endfor %}
+    {% assign related_count = 0 %} {% for post in site.posts %} {% if post.url
+    != page.url %} {% assign has_common_topic = false %} {% for topic in
+    post.topics %} {% if page_topics contains topic %} {% assign
+    has_common_topic = true %} {% endif %} {% endfor %} {% if has_common_topic
+    and related_count < 3 %} {% assign related_count = related_count | plus: 1
+    %}
+    <li>
+      <h3>
+        <a href="{{ post.url | absolute_url }}">
+          {{ post.title }}
+          <small>{{ post.date | date_to_string }}</small>
+        </a>
+      </h3>
+    </li>
+    {% endif %} {% endif %} {% endfor %}
   </ul>
 </div>
-{% endif %}
-
-{% if page.comments == true %}
-  {% include comments.html %}
-{% endif %}
+{% endif %} {% if page.comments == true %} {% include comments.html %} {% endif
+%}
