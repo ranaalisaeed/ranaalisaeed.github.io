@@ -25,15 +25,12 @@
 
 <script>
   // Add event listener to detect if Giscus fails to load
-  window.addEventListener("load", function () {
+  document.addEventListener("DOMContentLoaded", function () {
     setTimeout(function () {
-      if (document.querySelector(".giscus-frame") === null) {
-        const container = document.getElementById("giscus-container");
-        if (container) {
-          container.innerHTML =
-            "<p>Comments are temporarily unavailable. Please check back later.</p>";
-        }
+      if (!document.querySelector(".giscus-frame")) {
+        document.getElementById("giscus-container").innerHTML =
+          "<p>Comments are temporarily unavailable. Please check back later.</p>";
       }
-    }, 3000); // Check after 3 seconds
+    }, 3000);
   });
 </script>

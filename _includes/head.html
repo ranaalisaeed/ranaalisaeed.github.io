@@ -40,48 +40,4 @@
   />
 
   {% include structured-data.html %}
-
-  <!-- Web Vitals monitoring - simplified approach -->
-  <script>
-    // Only load Web Vitals in non-production
-    if (
-      window.location.hostname === "localhost" ||
-      window.location.hostname === "127.0.0.1"
-    ) {
-      // Manually load the script
-      const webVitalsScript = document.createElement("script");
-      webVitalsScript.src =
-        "https://unpkg.com/web-vitals@3/dist/web-vitals.iife.js";
-      webVitalsScript.async = true;
-      webVitalsScript.onload = function () {
-        // When script loads, access the global webVitals object
-        if (typeof webVitals !== "undefined") {
-          webVitals.onCLS(sendToAnalytics);
-          webVitals.onFID(sendToAnalytics);
-          webVitals.onLCP(sendToAnalytics);
-          webVitals.onFCP(sendToAnalytics);
-          webVitals.onTTFB(sendToAnalytics);
-        }
-      };
-      document.head.appendChild(webVitalsScript);
-    }
-
-    function sendToAnalytics(metric) {
-      // Log to console during development
-      console.log(metric);
-
-      // Send to Google Analytics if available
-      if (window.gtag) {
-        gtag("event", "web_vitals", {
-          event_category: "Web Vitals",
-          event_label: metric.name,
-          value: Math.round(metric.value),
-          non_interaction: true,
-          metric_rating: metric.rating,
-          metric_id: metric.id,
-          metric_delta: metric.delta,
-        });
-      }
-    }
-  </script>
 </head>

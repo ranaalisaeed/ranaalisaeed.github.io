@@ -8,7 +8,7 @@ permalink: /:basename
   <div class="topic-filter">
     <h3>Topics</h3>
     <ul class="topic-list">
-      <li><a href="{% link _pages/blog.md %}" class="topic-link {% if page.url == '/blog' and !request.query.topic %}active{% endif %}">All</a></li>
+      <li><a href="{% link _pages/blog.md %}" class="topic-link" id="all-topics">All</a></li>
       {% assign topics = site.posts | map: "topics" | compact | uniq | sort %}
       {% for topic in topics %}
         {% assign topic_slug = topic | slugify %}
@@ -64,6 +64,9 @@ document.addEventListener('DOMContentLoaded', function() {
         post.style.display = 'none';
       }
     });
+  } else {
+    // If no topic parameter, the "All" link should be active
+    document.getElementById('all-topics').classList.add('active');
   }
 });
 </script>
