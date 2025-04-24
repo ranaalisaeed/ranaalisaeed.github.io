@@ -1,5 +1,6 @@
 ---
 title: University teachers' view of useful learning analytics
+topcis: [learning-analytics]
 ---
 
 Several attempts at use of analytics to enhance teaching practices that were met with scepticism from academics. Retrospectives of those works were often challenged by “so what?” questions as academics couldn’t do much with insights from dashboards that lacked timeliness and context. This work explored what teachers really want from learning analytics to support their day-to-day teaching practice. <!--more-->
