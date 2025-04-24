@@ -31,7 +31,7 @@ You can send me an <a href="mailto:alirana@engineer.com">Email</a>, connect on <
 
   <!-- Hidden fields remain the same -->
   <input type="hidden" name="_subject" value="New message from your site">
-  <input type="hidden" name="_next" value="{{ site.url }}/thank-you/?submitted=true">
+  <input type="hidden" name="_next" value="https://ranaalisaeed.github.io/thank-you/?submitted=true">
   
   <button class="form-button" type="submit">Send Message</button>
 </form>

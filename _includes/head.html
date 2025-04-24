@@ -39,35 +39,30 @@
     href="{{ '/atom.xml' | absolute_url }}"
   />
 
-  {% if site.google_analytics_id %}
-  <script
-    async
-    src="https://www.googletagmanager.com/gtag/js?id={{ site.google_analytics_id }}"
-  ></script>
+  <!-- Web Vitals monitoring - simplified approach -->
   <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag() {
-      dataLayer.push(arguments);
+    // Only load Web Vitals in non-production
+    if (
+      window.location.hostname === "localhost" ||
+      window.location.hostname === "127.0.0.1"
+    ) {
+      // Manually load the script
+      const webVitalsScript = document.createElement("script");
+      webVitalsScript.src =
+        "https://unpkg.com/web-vitals@3/dist/web-vitals.iife.js";
+      webVitalsScript.async = true;
+      webVitalsScript.onload = function () {
+        // When script loads, access the global webVitals object
+        if (typeof webVitals !== "undefined") {
+          webVitals.onCLS(sendToAnalytics);
+          webVitals.onFID(sendToAnalytics);
+          webVitals.onLCP(sendToAnalytics);
+          webVitals.onFCP(sendToAnalytics);
+          webVitals.onTTFB(sendToAnalytics);
+        }
+      };
+      document.head.appendChild(webVitalsScript);
     }
-    gtag("js", new Date());
-    gtag("config", "{{ site.google_analytics_id }}");
-  </script>
-  {% endif %} {% include structured-data.html %}
-
-  <script
-    async
-    src="https://unpkg.com/web-vitals/dist/web-vitals.iife.js"
-  ></script>
-
-  <!-- Web Vitals monitoring -->
-  <script type="module">
-    import {
-      onCLS,
-      onFID,
-      onLCP,
-      onFCP,
-      onTTFB,
-    } from "https://unpkg.com/web-vitals@3/dist/web-vitals.attribution.js";
 
     function sendToAnalytics(metric) {
       // Log to console during development
@@ -80,19 +75,11 @@
           event_label: metric.name,
           value: Math.round(metric.value),
           non_interaction: true,
-          // Include additional dimension data available via attribution
           metric_rating: metric.rating,
           metric_id: metric.id,
           metric_delta: metric.delta,
         });
       }
     }
-
-    // When the script loads, start measuring
-    onCLS(sendToAnalytics);
-    onFID(sendToAnalytics);
-    onLCP(sendToAnalytics);
-    onFCP(sendToAnalytics);
-    onTTFB(sendToAnalytics);
   </script>
 </head>
