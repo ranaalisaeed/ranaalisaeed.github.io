@@ -14,7 +14,7 @@
 
   {% if page.url and site.baseurl %}
   <link rel="canonical" href="{{ page.url | absolute_url }}" />
-  {% endif %}
+  {% endif %} {% include tailwind-minimal.html %}
 
   <link rel="stylesheet" href="{{ '/public/css/poole.css' | absolute_url }}" />
   <link rel="stylesheet" href="{{ '/public/css/syntax.css' | absolute_url }}" />

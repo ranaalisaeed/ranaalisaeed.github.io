@@ -1,0 +1,19 @@
+<!-- _includes/tailwind-minimal.html -->
+<!-- Tailwind CSS via CDN -->
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  // Prefix all Tailwind classes to avoid conflicts with existing CSS
+  tailwind.config = {
+    prefix: "tw-",
+    corePlugins: {
+      preflight: false, // Disable Tailwind's base styles
+    },
+    theme: {
+      extend: {
+        colors: {
+          primary: "#85144b", // Your theme's primary color
+        },
+      },
+    },
+  };
+</script>
