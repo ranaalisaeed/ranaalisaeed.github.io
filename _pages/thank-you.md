@@ -16,7 +16,6 @@ sidebar_exclude: true
       }
   </script>
 
-
   <h1>Message Received!</h1>
   
   <p>Thank you for reaching out. I've received your message and will get back to you as soon as possible.</p>
