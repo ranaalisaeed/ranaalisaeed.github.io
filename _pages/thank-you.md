@@ -2,6 +2,7 @@
 layout: page
 title: Thank You
 permalink: /thank-you/
+sidebar_exclude: true
 ---
 
 <div class="thank-you-container" style="text-align: center; padding: 2rem 0;">
@@ -11,7 +12,7 @@ permalink: /thank-you/
       const submitted = urlParams.get('submitted');      
       // If not submitted via form, redirect to home
       if (submitted !== 'true') {
-        window.location.href = '{{ site.url }}';
+        window.location.href = '/';
       }
   </script>
 

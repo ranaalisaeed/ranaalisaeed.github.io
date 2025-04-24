@@ -18,7 +18,7 @@ permalink: /:basename
 	</div>
 	<div class="posts">
 		{% for post in site.posts %}
-		<div class="post" data-topics="{% for topic in post.topics }{{ topic | slugify }} {% endfor %}">
+		<div class="post" data-topics="{% for topic in post.topics %}{{ topic | slugify }} {% endfor %}">
 			<h2 class="post-title">
 				<a href="{{ post.url | absolute_url }}">
 					{{ post.title }}
@@ -36,7 +36,6 @@ permalink: /:basename
 		</div>
 		{% endfor %}
     </div>
-  </div>
 </div>
 
 <script>
