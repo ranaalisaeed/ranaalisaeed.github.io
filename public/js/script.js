@@ -1,15 +1,27 @@
-(function(document) {
-  var toggle = document.querySelector('.sidebar-toggle');
-  var sidebar = document.querySelector('#sidebar');
-  var checkbox = document.querySelector('#sidebar-checkbox');
-
+// Simple sidebar toggle functionality
+document.addEventListener('DOMContentLoaded', function() {
+  // Sidebar toggle behavior
+  var sidebarCheckbox = document.getElementById('sidebar-checkbox');
+  var sidebarToggle = document.querySelector('.sidebar-toggle');
+  
+  if (sidebarToggle) {
+    sidebarToggle.addEventListener('click', function(e) {
+      e.preventDefault();
+      sidebarCheckbox.checked = !sidebarCheckbox.checked;
+    });
+  }
+  
+  // Close sidebar when clicking outside
   document.addEventListener('click', function(e) {
     var target = e.target;
-
-    if(!checkbox.checked ||
-       sidebar.contains(target) ||
-       (target === checkbox || target === toggle)) return;
-
-    checkbox.checked = false;
-  }, false);
-})(document);
+    var sidebar = document.querySelector('.sidebar');
+    var sidebarCheckbox = document.getElementById('sidebar-checkbox');
+    
+    // If sidebar is open and click is outside sidebar and not on toggle
+    if (sidebarCheckbox.checked && 
+        !sidebar.contains(target) && 
+        !target.classList.contains('sidebar-toggle')) {
+      sidebarCheckbox.checked = false;
+    }
+  });
+});
