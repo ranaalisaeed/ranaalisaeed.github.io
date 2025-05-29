@@ -18,6 +18,7 @@ bundle exec jekyll serve --config _config.yml,_config_dev.yml --open-url --draft
 bundle exec jekyll serve --config _config.yml,_config_dev.yml --open-url
 ```
 
+
 [![Netlify Status](https://api.netlify.com/api/v1/badges/3611d981-a92f-4983-987c-468139fd3fb0/deploy-status)](https://app.netlify.com/sites/ranaalisaeed/deploys)
 
 
